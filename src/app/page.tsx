@@ -23,7 +23,7 @@ export default function Page() {
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
-            <p className="flex max-w-md items-center gap-2 text-pretty font-mono text-xs text-muted-foreground">
+            <p className="flex max-w-md items-center gap-1.5 text-pretty font-mono text-xs text-muted-foreground">
               <div className="flex items-center justify-start gap-1">
                 <GlobeIcon className="h-3 w-3" />
                 {RESUME_DATA.location}
