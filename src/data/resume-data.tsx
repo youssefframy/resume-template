@@ -1,6 +1,6 @@
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
-// import { XIcon } from "@/components/icons/XIcon";
+import { BlogIcon } from "@/components/icons/BlogIcon";
 
 export const RESUME_DATA = {
   name: "Youssef Ramy",
@@ -26,6 +26,11 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/youssefframy/",
         icon: LinkedInIcon,
+      },
+      {
+        name: "Blog",
+        url: "https://thedev-blog.vercel.app",
+        icon: BlogIcon,
       },
     ],
   },
