@@ -6,7 +6,8 @@ export const RESUME_DATA = {
   name: "Youssef Ramy",
   initials: "YR",
   location: "Cairo, Egypt",
-  locationLink: " ",
+  locationLink: "",
+  avatarUrl: "",
   about:
     "Software Engineer focused on building high scalable and fast application with extra attention to details.",
   summary:
