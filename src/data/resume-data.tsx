@@ -10,8 +10,6 @@ export const RESUME_DATA = {
   avatarUrl: "",
   about:
     "Software Engineer focused on building high scalable and fast application with extra attention to details.",
-  summary:
-    "As a Software Engineer specializing in frontend development, I'm always eager to tackle new projects and enhance my skills. My interest in the broader aspects of software engineering, like DevOps and cloud computing where I pursued certifications from AWS and Google Cloud underline my commitment to staying at the forefront of technology.",
   personalWebsiteUrl: "https://thedev-blog.vercel.app",
   contact: {
     email: "youssefframy0@gmail.com",
@@ -56,12 +54,6 @@ export const RESUME_DATA = {
       title: "Mid-Level Software Engineer",
       start: "Feb 2023",
       end: "Present",
-      /**
-       *Spearheaded ERP system development with React and TypeScript, streamlining user, content, and product management, and automated backend processes for efficient VPS deployment.
-Crafted visually appealing, adaptable interfaces across devices, enhancing user experience and establishing a UI component system documented in Storybook for design consistency.
-Leveraged Next.js alongside React and TypeScript to develop fast, scalable, SEO-friendly web applications, significantly boosting web performance and visibility.
-Combined strategic development practices with comprehensive documentation and agile methodologies to deliver high-quality, user-centric software solutions.
-       */
       description: [
         "Developed ERP system development with React and TypeScript, streamlining user, content, and product management, and automated backend processes for efficient VPS deployment.",
         "Crafted visually appealing, adaptable interfaces across devices, enhancing user experience and establishing a UI component system documented in Storybook for design consistency.",

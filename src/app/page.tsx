@@ -10,7 +10,6 @@ import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
 };
 
 export default function Page() {
@@ -23,7 +22,7 @@ export default function Page() {
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
-            <p className="flex max-w-md items-center gap-1.5 text-pretty font-mono text-xs text-muted-foreground">
+            <div className="flex max-w-md items-center gap-1.5 text-pretty font-mono text-xs text-muted-foreground">
               <div className="flex items-center justify-start gap-1">
                 <GlobeIcon className="h-3 w-3" />
                 {RESUME_DATA.location}
@@ -38,7 +37,7 @@ export default function Page() {
                 <MailIcon className="h-3 w-3" />
                 {RESUME_DATA.contact.email}
               </div>
-            </p>
+            </div>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
@@ -68,12 +67,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-        {/* <Section>
-          <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary}
-          </p>
-        </Section> */}
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
