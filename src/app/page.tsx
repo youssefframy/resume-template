@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+      <section className="mx-auto w-full max-w-2xl space-y-5 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -68,12 +68,12 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <Section>
+        {/* <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
-        </Section>
+        </Section> */}
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
@@ -108,7 +108,11 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  <ul className="flex list-inside list-disc flex-col gap-0.5">
+                    {work.description.map((point) => (
+                      <li key={point}>{point}</li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             );

@@ -16,7 +16,7 @@ interface Props {
 
 export function ProjectCard({ title, description, tags, link }: Props) {
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+    <Card className="flex flex-col overflow-hidden border border-gray-300 p-3">
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-base">
@@ -24,7 +24,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
               <a
                 href={link}
                 target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
+                className="inline-flex items-center gap-1 underline"
               >
                 {title}{" "}
                 <span className="h-1 w-1 rounded-full bg-green-500"></span>

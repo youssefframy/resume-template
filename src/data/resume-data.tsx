@@ -53,11 +53,21 @@ export const RESUME_DATA = {
       company: "Bronto24",
       link: "https://bronto24.com.com",
       badges: ["Hybrid", "Full Time"],
-      title: "Mid Level Software Engineer",
+      title: "Mid-Level Software Engineer",
       start: "Feb 2023",
       end: "Present",
-      description:
-        "I played a key role in developing an ERP system with React and TypeScript, streamlining user, content, and product management, and also established a full backend automation process for efficient code deployment on a private VPS. My work involved designing visually appealing, ensuring adaptability on various devices, and crafting a comprehensive UI component system documented in Storybook. Additionally, I leveraged Next.js, React and typescript to build fast, high-performing, scalable and SEO-friendly web applications.",
+      /**
+       *Spearheaded ERP system development with React and TypeScript, streamlining user, content, and product management, and automated backend processes for efficient VPS deployment.
+Crafted visually appealing, adaptable interfaces across devices, enhancing user experience and establishing a UI component system documented in Storybook for design consistency.
+Leveraged Next.js alongside React and TypeScript to develop fast, scalable, SEO-friendly web applications, significantly boosting web performance and visibility.
+Combined strategic development practices with comprehensive documentation and agile methodologies to deliver high-quality, user-centric software solutions.
+       */
+      description: [
+        "Developed ERP system development with React and TypeScript, streamlining user, content, and product management, and automated backend processes for efficient VPS deployment.",
+        "Crafted visually appealing, adaptable interfaces across devices, enhancing user experience and establishing a UI component system documented in Storybook for design consistency.",
+        "Leveraged Next.js alongside React and TypeScript to develop fast, scalable, SEO-friendly web applications, significantly boosting web performance and visibility.",
+        "Combined strategic development practices with comprehensive documentation and agile methodologies to deliver high-quality, user-centric software solutions.",
+      ],
     },
     {
       company: "Dr. Pal",
@@ -66,8 +76,11 @@ export const RESUME_DATA = {
       title: "Frontend Engineer",
       start: "Oct 2023",
       end: "Present",
-      description:
-        "Collaborating closely with the CTO and Co-Founder of Dr. Pal, I was instrumental in developing and enhancing new features for the company's web page builder. My role involved direct communication and coordination to ensure the tool met evolving business and user requirements.",
+      description: [
+        "Collaborated closely with the CTO and Co-Founder of Dr. Pal to develop and enhance new features for the company's web page builder.",
+        "Played a key role in aligning the development process with evolving business and user requirements through direct communication and coordination.",
+        "Contributed to the continuous improvement of the web page builder tool, ensuring it met strategic objectives and user satisfaction.",
+      ],
     },
     {
       company: "Orange Digital Center Egypt",
@@ -76,8 +89,10 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "Sep 2022",
       end: "Feb 2023",
-      description:
-        "I contributed to developing a large-scale Learning Management System using React and TypeScript, blending efficient backend integration with visually appealing, responsive design using TailwindCSS and Material UI.",
+      description: [
+        "Implemented Redux Toolkit for state management and integrated RTK Query for API consumption in a React/TypeScript-based LMS project.",
+        "Designed responsive interfaces using TailwindCSS and Material UI, while following Agile methodologies with Jira for project management.",
+      ],
     },
   ],
   skills: [
@@ -88,6 +103,9 @@ export const RESUME_DATA = {
     "Storybook",
     "Node.js",
     "PostgresSQL",
+    "NeonDB",
+    "PlanetScale",
+    "Supabase",
     "Devops",
     "AWS Certified Cloud Practitioner",
     "Google Associate Cloud Developer",
@@ -132,16 +150,14 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Titex Egy",
-      techStack: [
-        "Freelance",
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Supabase",
-      ],
+      title: "Thomas IQ",
+      techStack: ["Open Source", "Next.js", "Tailwind CSS"],
       description:
-        "Boosted sales with a sleek, responsive e-commerce site for social media presence.",
+        "Open source project to increase your chances to pass Thomas International IQ test",
+      link: {
+        label: "thomas-iq-test-prep.vercel.app",
+        href: "https://thomas-iq-test-prep.vercel.app/",
+      },
     },
   ],
 } as const;
