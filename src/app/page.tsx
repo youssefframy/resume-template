@@ -101,9 +101,9 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  <ul className="flex list-inside list-disc flex-col gap-0.5">
+                  <ul className="flex list-outside flex-col gap-0.5">
                     {work.description.map((point) => (
-                      <li key={point}>{point}</li>
+                      <li key={point}>∙ {point}</li>
                     ))}
                   </ul>
                 </CardContent>
